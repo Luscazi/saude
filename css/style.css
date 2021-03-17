@@ -328,6 +328,7 @@ footer .bottom-footer {
 
 footer .bottom-footer p:first-child {
 	float: left;
+	padding-top: 15px;
 }
 
 footer .bottom-footer p:last-child {
