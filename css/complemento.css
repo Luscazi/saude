@@ -1,0 +1,263 @@
+.fmc {font-size:28px; color:crimson;}
+
+.msgErro {color:red; padding-left:10px;}
+.sErro {color: red;}
+
+.blErro, .blErro li {color:red; margin:0px;}
+
+.blErroW {
+    color: red;
+    background-color: white;
+    padding: 10px 0px 10px 20px !important;
+    border-radius:3px;
+}
+.content-sub .blErroW li, .blErroW li {margin:0px;}
+
+.search-results aside .filter .sErro1 {
+    margin: 10px 0px 0px 0px;
+    color: red;
+    text-align: left;
+}
+
+.search-results aside .filter form {padding: 30px 20px;}
+.search-results article .result .img img {max-width:128px; max-height:128px;}
+.top-region .box .img img {width:547px; height:236px;}
+.about .structure .item .box img {max-width:210px; max-height:208px;}
+.profile aside .top .img-profile img {width:166px; height:166px;}
+.news aside .box img {width:210px; height:194px;}
+
+/*
+.about .structure .item .box {text-transform:capitalize;}
+.about .structure .item-dp .box {text-transform:capitalize;}
+.about .structure .item-cm .box {text-transform:capitalize;}
+*/
+
+.content-sub a, .content-sub h2 {text-decoration:none;}
+
+.btn-menu {width:100%!important}
+
+.news h3
+{   color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 0 300px;
+}
+
+
+.p404 {height:350px;}
+
+.p404 h2
+{   color: #333;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 50px 0px 100px 0px;
+}
+
+.p404 a {
+    color: #ff5400;
+}
+
+
+
+/* usado no carrossel de publicidade da home */
+.home-pub {
+	background-color:#f5f5f5;
+	padding:60px 0;
+	text-align:center;
+}
+
+.home-pub .itemPub {
+	background-color:#fff;
+	border-radius:3px;
+	box-shadow:0 0 3px 3px #dbdbdb;
+	margin:9px;
+    max-width:200px;
+    float:left;
+}
+
+.home-pub .itemPub img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 30px 0px;
+}
+
+header .form {
+	float:left;
+	margin:22px 0 0;
+	padding:0 0 0 35px;
+	position:relative;
+}
+
+header .form input {
+	background-color:transparent;
+	border:none;
+	color:#fff;
+	font-size:15px;
+	font-weight:700;
+	height:24px;
+	width:190px;
+}
+
+header .form ::-moz-placeholder {
+	opacity:1;
+	text-transform:uppercase;
+}
+
+header .form ::-webkit-input-placeholder {
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.btnLupaMenu , header .form button {
+	background-color:transparent;
+	border:none;
+	color:#fff;
+	font-size:18px;
+	left:0;
+	position:absolute;
+	top:0;
+}
+
+
+.linkted p {cursor:pointer;}
+.onted p {
+    color: #ff5400;
+    font-weight: 700;
+}
+
+
+.doenca-faixa-center-cropped {
+  width: 100%;
+  height: 120px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom:20px;
+}
+
+
+.check-convenios + label {
+    margin-bottom:15px;
+}
+
+
+.search-results aside .filter .buscar {
+	background-color:#ff5400;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	font-size:15px;
+	font-weight:700;
+	height:50px;
+	width:100%;
+}
+
+.search-results aside .filter .buscar:hover {
+	background-color:#bf360c;
+}
+
+.not-find {
+	height: 345px;
+}
+
+.card-form input[type="text"], input[type="password"], input[type="email"] {
+    background-color: inherit;
+}
+
+.associe .btn-menu {
+    bottom: -11px;
+}
+
+.area-texto-card {
+    display: inline-table;
+}
+
+.aspNetDisabled {
+    background-color: #ddd !important;
+}
+
+.top-region .box .buttons .regional-tel {
+    height: auto;
+    line-height: 25px;
+}
+
+
+.news article .formatacao-ckeditor h1 {font-size:40px; line-height:52px; margin:0 0 20px;}
+.news article .formatacao-ckeditor h2 {font-size:35px; line-height:49px; margin:0 0 19px;}
+.news article .formatacao-ckeditor h3 {font-size:30px; line-height:46px; margin:0 0 18px;}
+.news article .formatacao-ckeditor h4 {font-size:25px; line-height:43px; margin:0 0 17px;}
+.news article .formatacao-ckeditor h5 {font-size:20px; line-height:40px; margin:0 0 16px;}
+
+
+
+img.lessBright {
+    -webkit-filter: brightness(0.65);
+    filter: brightness(0.65);
+}
+
+
+.dvAlert {margin-top:10px; padding:5px; text-align:center; color:white; background-color:lightcoral; border-radius:3px; display:none;} 
+.dvGo {margin-top:10px; padding:5px; text-align:center; color:white; background-color:#FF5400; border-radius:3px; display:none;} 
+
+
+.card .chk-assoc {width:20px; float:left;}
+
+
+
+.patro-fundo-azul {
+    padding-top: 45px;
+    width: 100%;
+    min-height: 400px;
+    background-color:#318FB5;
+    padding-bottom: 30px;
+}
+
+
+#modalFundo {display:none;
+                position: absolute;
+	            top: 0;
+	            left: 0;
+	            width: 100%;
+	            height: 1000%;
+	            background: #000;
+	            filter: alpha(opacity=75);
+	            -moz-opacity: 0.75;
+	            -khtml-opacity: 0.75;
+	            opacity: 0.75;
+	            z-index: 1000;
+            }
+
+
+
+/* modal de calendario do evento */
+.ev-cal-tab {width:100%; border:1px solid #dadada; margin-bottom:40px;}
+.ev-cal-tab thead * {font-weight:bold;}
+.ev-cal-tab tr td {padding:20px 5px; width:14%; border:1px solid #dadada; text-align:center;}
+
+.ev-cal-verde {color:#009688; margin:0px 5px;}
+.ev-cal-azul {color:#1B7CCD; margin:0px 5px;}
+.ev-cal-roxo {color:#7986CB; margin:0px 5px;}
+.ev-cal-mini {font-size:10px;}
+
+.ev-cal-card {
+    background-color:#fff;
+    display:inline-block;
+    margin:0 0 40px;
+    overflow:hidden;
+    width:100%;
+    padding:20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+.ev-cal-card h4 {font-size:18px; font-weight:bold; margin:8px 0px 8px 5px;}
+.ev-cal-card a {color: #ff5400; margin-left:5px;}
+#ev-cal-lista {overflow-y: scroll; height: 450px;}
+/* modal de calendario do evento */
+
+
